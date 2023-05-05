@@ -16,17 +16,17 @@ void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len){
   //Serial.print("Buton Durumu: ");
   Serial.print("Y Eksen Verisi: ");
   if(myData.y>=515){
-      myData.y=map(myData.y,505,755,0,150);
+      myData.y=map(myData.y,505,755,0,250);
       if(myData.y>=20){ileri();}else{dur();}
       ileriHiz=myData.y;}else if(myData.y<=490){
-      myData.y=map(myData.y,505,250,0,150);
+      myData.y=map(myData.y,505,250,0,250);
       if(myData.y>=20){geri();}else{dur();}
       ileriHiz=myData.y;}
   else if(myData.x>=525){
-      myData.x=map(myData.x,511,765,0,150);
+      myData.x=map(myData.x,511,765,0,250);
       if(myData.x>=20){sol();}else{dur();}
       }else if(myData.x<=485){
-      myData.x=map(myData.x,511,250,0,150);
+      myData.x=map(myData.x,511,250,0,250);
       if(myData.x>=20){sag();}else{dur();}
       }else{
         dur();
