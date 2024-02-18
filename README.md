@@ -1,8 +1,12 @@
 # Kumandali_Araba
 Kullanılan malzemeler:
+
 Denyap mini,
+
 Deneyap Kart 1A, 
+
 2 adet Deneyap Kumanda Kolu,
+
 1 Adet L298N Motor sürücü, 4 Adet dc motor kullanılmıştır.
 1A kartı alıcı kart olarak kodlanmış motor sürücü ve kontrol devresi üzerine kurulmuştur.
 Deneyap mini kartı gönderici olarak kolanmıştır. kullanılan kumanda kolları mini kartına bağlanmıştır.
